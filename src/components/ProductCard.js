@@ -12,7 +12,7 @@ const ProductCard = ({ product, onProductClick, onBuyNowClick }) => {
             />
             <h3>{product.name}</h3>
             <p className="price">₹{product.price}</p>
-            <button onClick={() => onBuyNowClick(product)}>Buy Now</button>
+            <button className="Butt"onClick={() => onBuyNowClick(product)}>Buy Now</button>
         </div>
     );
 };

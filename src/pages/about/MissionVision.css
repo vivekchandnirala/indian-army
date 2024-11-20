@@ -22,6 +22,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
+    transition: ease-in 0.42s;
 }
 
 .photo {
@@ -40,6 +41,15 @@
 .army-vision {
     padding: 20px;
     margin: 20px;
+}
+
+
+.p1 {
+    transition: ease-in 0.42s;
+}
+
+.p1:hover {
+    transform: scale(1.2);
 }
 
 /* Responsive design for smaller screens */

@@ -36,17 +36,23 @@ const MissionVision = () => {
                 </p>
 
                 <div className="army-gallery">
-                    <div className="photo">
-                        <img src={Photo1} alt="Cadets at Rajpath, New Delhi" />
-                        <p>Urban Warfare</p>
+                    <div className="p1">
+                        <div className="photo">
+                            <img src={Photo1} alt="Cadets at Rajpath, New Delhi" />
+                            <p>Urban Warfare</p>
+                        </div>
                     </div>
-                    <div className="photo">
-                        <img src={Photo2} alt="PM Modi at NCC Rally" />
-                        <p>Yudh Abhyas</p>
+                    <div className="p1">
+                        <div className="photo">
+                            <img src={Photo2} alt="PM Modi at NCC Rally" />
+                            <p>Yudh Abhyas</p>
+                        </div>
                     </div>
-                    <div className="photo">
-                        <img src={Photo3} alt="NCC Motto" />
-                        <p>Weapons used by the Indian Army</p>
+                    <div className="p1">
+                        <div className="photo">
+                            <img src={Photo3} alt="NCC Motto" />
+                            <p>Weapons used by the Indian Army</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,17 +73,24 @@ const MissionVision = () => {
                 </ul>
 
                 <div className="army-gallery">
-                    <div className="photo">
-                        <img src={Photo4} alt="Kneeling Position" />
-                        <p>Buddyship</p>
+                    <div className="p1">
+                        <div className="photo">
+                            <img src={Photo4} alt="Kneeling Position" />
+                            <p>Buddyship</p>
+                        </div>
                     </div>
-                    <div className="photo">
-                        <img src={Photo5} alt="Guard of Honour" />
-                        <p>Border Security</p>
+                    <div className="p1">
+
+                        <div className="photo">
+                            <img src={Photo5} alt="Guard of Honour" />
+                            <p>Border Security</p>
+                        </div>
                     </div>
-                    <div className="photo">
-                        <img src={Photo6} alt="LPU-NCC Cadets" />
-                        <p>Indian Army – Defence.Capital</p>
+                    <div className="p1">
+                        <div className="photo">
+                            <img src={Photo6} alt="LPU-NCC Cadets" />
+                            <p>Indian Army – Defence.Capital</p>
+                        </div>
                     </div>
                 </div>
             </div>
